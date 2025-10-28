@@ -18,7 +18,7 @@ How to install modules:
 
 # main.py
 
-This program runs as a ransomware. This python file will only affect files in the same directory, so it is safe. When the program is ran, it will send the user's IP, username, and affected files to a discord channel as part of a webhook. It will also send the key used to encrypt/ decrypt the files and will also send the `phrase` needed to decrypt. The `phrase` is a word randomly generated from a pre-existing list of words on the internet, and is required for users to decrypt their locked files. This is the "ransom" part of the program. It is possible to change the webhook URL to another (line 15).
+This program runs as a ransomware. This python file will only affect files in the same directory, so it is safe. When the program is ran, it will send the user's IP, username, and affected files to a discord channel as part of a webhook. It will also send the key used to encrypt/ decrypt the files and will also send the `phrase` needed to decrypt. The `phrase` is a word randomly generated from a pre-existing list of words on the internet, and is required for users to decrypt their locked files. This is the "ransom" part of the program. 
 
 The `key.key` (file that contains the encryption key) and the `phrase.key` (file that contains the phrase to decrypt) file will be made and will also be hidden. These files can be viewed in file explorer > view > hidden items (turned on). These files are made when the main program (`main.py`) is ran, and if the phrase is given/ decrpyted, these 2 files will be deleted. 
 
