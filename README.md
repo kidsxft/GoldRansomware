@@ -23,12 +23,15 @@ This program runs as a ransomware. This python file will only affect files in th
 The `key.key` (file that contains the encryption key) and the `phrase.key` (file that contains the phrase to decrypt) file will be made and will also be hidden. These files can be viewed in file explorer > view > hidden items (turned on). These files are made when the main program (`main.py`) is ran, and if the phrase is given/ decrpyted, these 2 files will be deleted. 
 
 This is a text file.
+
 <img width="883" height="176" alt="image" src="https://github.com/user-attachments/assets/84c499b0-4246-4edd-a37c-a3bb8193ea7f" />
 
 After `main.py` is ran, this is what the text file contains.
+
 <img width="1883" height="147" alt="image" src="https://github.com/user-attachments/assets/82db522c-06e7-4772-999f-cdd33959e380" />
 
 As for the webhook, this is what the bot will send.
+
 <img width="512" height="290" alt="image" src="https://github.com/user-attachments/assets/416627c0-10b9-4e6f-842d-8cc0c13b45f8" />
 
 After the "phrase" is inputted into the terminal, all files and webhooks are reverted.
